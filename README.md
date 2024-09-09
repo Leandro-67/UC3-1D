@@ -63,6 +63,8 @@ const be = 645
 
 
 ## PROMPT
+Como Funciona o prompt
+Exibição da Caixa de Diálogo: Quando prompt é chamado, ele exibe uma caixa de diálogo modal com um campo de entrada e uma mensagem opcional. O usuário pode digitar um valor ou cancelar a ação.
 
 ````js
 
@@ -78,6 +80,17 @@ if (nome !== null) {
   alert("Você cancelou a operação.");
 }
 
+prompt("Qual é o seu nome?", "Nome padrão"):
+
+Exibe uma caixa de diálogo pedindo ao usuário para inserir o nome.
+"Nome padrão" é o valor inicial que aparece no campo de entrada.
+Verificação:
+
+Se o usuário insere um nome e clica em "OK", o valor inserido é armazenado na variável nome.
+Se o usuário clica em "Cancelar", nome será null.
+alert:
+
+Mostra uma mensagem com o nome do usuário ou informa que a operação foi cancelada.
 
 
 ````
