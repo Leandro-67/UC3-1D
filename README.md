@@ -159,7 +159,13 @@ if (condição) {
   // Código a ser executado se a condição for falsa
 }
 ````
+### NUMBER
+Em JavaScript, Number é um tipo de dado primitivo usado para representar valores numéricos. O tipo Number pode armazenar tanto números inteiros quanto números de ponto flutuante (decimais). A seguir, estão algumas das principais características e operações associadas ao tipo Number em JavaScript.
 
+````js
+let inteiro = 42;
+let decimal = 3.14;
+````
 
  
  
