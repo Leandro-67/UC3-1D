@@ -149,7 +149,7 @@ const z = 30;
 console.log(z); // Saída: 30
 ````
 
-#### IF ELSE
+### IF ELSE
 Em JavaScript, if e else são estruturas de controle de fluxo usadas para executar blocos de código com base em condições. Elas permitem que o programa tome decisões e execute diferentes seções de código dependendo se uma condição é verdadeira ou falsa.
 
 ````js
