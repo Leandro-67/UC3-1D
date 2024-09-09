@@ -26,30 +26,26 @@ console.log("Meu nome é:" + fullname);
 let a = 20
 let b = 30 
 let soma = a + b
-````
-````js
+
 console.log(soma)
 
 let c =24
 let d = 65
 let subtrair = c - d
-````
-````js
+
 console.log(subtrair)
 
 let e = 78
 let f = 75
 let multiplicar = e * f
-````
-````js
+
 console.log(multiplicar)
 
 
 let g = 56
 let h = 54
 let dividir = g / h
-````
-````js
+
 console.log(dividir)
 
 const pi = 23478
