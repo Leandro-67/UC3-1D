@@ -40,10 +40,6 @@ console.log("Frutas atualizadas:", frutas);
 console.log("Pessoa atualizada:", pessoa);
 
 ````
-## Explicação
-const: Declara variáveis que não podem ser reatribuídas.
-Imutabilidade: const impede reatribuição da variável, mas permite alteração do conteúdo de objetos e arrays.
-Exemplo: Usando const, você pode definir variáveis como números, strings, arrays e objetos. Embora o valor da variável não possa ser mudado, o conteúdo interno (como elementos de um array ou propriedades de um objeto) pode ser alterado.
 
 ### CONSOLE.LOG
 O console.log é uma função usada em JavaScript para exibir mensagens no console do navegador ou ambiente de execução, como o Node.js. Ele é frequentemente utilizado para depuração (debugging), permitindo que o desenvolvedor veja o valor de variáveis ou mensagens personalizadas em tempo real durante a execução do código.
@@ -58,11 +54,7 @@ let idade = 25;
 console.log(nome, idade); // Saída: João 25
 
 ````
-## Explicação
-console: é um objeto global que fornece acesso ao console do navegador ou ambiente de execução.
-log(): é um método desse objeto que imprime a mensagem ou o valor de uma variável no console.
-Aqui, a variável nome será exibida no console, e a saída será a string "João".
-O console.log pode ser usado para imprimir diferentes tipos de dados, como strings, números, arrays e objetos.
+
 
 ### PROMPT
 Como Funciona o prompt
@@ -85,14 +77,89 @@ if (nome !== null) {
 prompt("Qual é o seu nome?", "Nome padrão"):
 
 ````
-## Explicação
-Exibe uma caixa de diálogo pedindo ao usuário para inserir o nome.
-"Nome padrão" é o valor inicial que aparece no campo de entrada.
-Verificação:
 
-Se o usuário insere um nome e clica em "OK", o valor inserido é armazenado na variável nome.
-Se o usuário clica em "Cancelar", nome será null.
-alert:
 
-Mostra uma mensagem com o nome do usuário ou informa que a operação foi cancelada.
+### SWITCH CASE
+O switch em JavaScript é usado para executar diferentes blocos de código com base no valor de uma variável ou expressão. Ele funciona de maneira semelhante ao if-else, mas é mais adequado quando você tem múltiplas condições a serem verificadas.
 
+````js
+
+let diaDaSemana = 3;
+
+switch (diaDaSemana) {
+  case 1:
+    console.log("Hoje é Domingo");
+    break;
+  case 2:
+    console.log("Hoje é Segunda-feira");
+    break;
+  case 3:
+    console.log("Hoje é Terça-feira");
+    break;
+  case 4:
+    console.log("Hoje é Quarta-feira");
+    break;
+  case 5:
+    console.log("Hoje é Quinta-feira");
+    break;
+  case 6:
+    console.log("Hoje é Sexta-feira");
+    break;
+  case 7:
+    console.log("Hoje é Sábado");
+    break;
+  default:
+    console.log("Dia inválido");
+}
+````
+
+
+### STRING
+Em JavaScript, strings são um tipo de dado primitivo usado para representar texto. Strings são sequências de caracteres que podem incluir letras, números, espaços e símbolos. Elas são fundamentais para manipulação e apresentação de dados textuais em um programa.
+Strings podem ser criadas usando aspas simples ('), aspas duplas (") ou crase (`) para template literals.
+
+````js
+
+ let string1 = 'Olá, mundo!';
+let string2 = "Bem-vindo ao JavaScript!";
+let string3 = `Você tem ${25} anos.`;
+````
+
+### VARIAVEIS 
+Em JavaScript, variáveis são usadas para armazenar dados que podem ser manipulados e referenciados em diferentes partes do código. Elas atuam como "recipientes" para valores e permitem que esses valores sejam usados e alterados conforme necessário.
+
+## VAR
+
+````js
+var x = 10;
+console.log(x); // Saída: 10
+````
+
+## LET
+
+````js
+let y = 20;
+console.log(y); // Saída: 20
+````
+
+## CONST
+
+````js
+const z = 30;
+console.log(z); // Saída: 30
+````
+
+#### IF ELSE
+Em JavaScript, if e else são estruturas de controle de fluxo usadas para executar blocos de código com base em condições. Elas permitem que o programa tome decisões e execute diferentes seções de código dependendo se uma condição é verdadeira ou falsa.
+
+````js
+if (condição) {
+  // Código a ser executado se a condição for verdadeira
+} else {
+  // Código a ser executado se a condição for falsa
+}
+````
+
+
+ 
+ 
