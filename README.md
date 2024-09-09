@@ -13,7 +13,7 @@ aprendir sobre as variaveis: const, let, var, if, else, Switch, case
 Escreva aqui as atividades desenvolvidas em sala e para casa. Você pode detelhar a atividade e usar links das atividades do codepen e vídeos desenvolvidos em sala. 
 
 Aqui está monstrando as somas, subtração, multiplicação e divisão dos numeros
- 
+ CONST
 ````js
 
 const nome1 = "Leandro"
@@ -21,6 +21,7 @@ const apelido = "Soares"
 const fullname = nome1 + " " + apelido
 ````
 ````js
+CONSOLE.LOG
 console.log("Meu nome é:" + fullname);
 
 let a = 20
