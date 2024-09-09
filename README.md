@@ -14,7 +14,7 @@ Escreva aqui as atividades desenvolvidas em sala e para casa. Você pode detelha
 
 Aqui está monstrando as somas, subtração, multiplicação e divisão dos numeros
 
- ## CONST
+ ### CONST
 
  
 ````js
@@ -25,7 +25,7 @@ const fullname = nome1 + " " + apelido
 ````
 
 
-## CONSOLE.LOG
+### CONSOLE.LOG
 
 ````js
 
@@ -62,7 +62,7 @@ const be = 645
 ````
 
 
-## PROMPT
+### PROMPT
 Como Funciona o prompt
 Exibição da Caixa de Diálogo: Quando prompt é chamado, ele exibe uma caixa de diálogo modal com um campo de entrada e uma mensagem opcional. O usuário pode digitar um valor ou cancelar a ação.
 
@@ -82,6 +82,8 @@ if (nome !== null) {
 
 prompt("Qual é o seu nome?", "Nome padrão"):
 
+````
+## Explicação
 Exibe uma caixa de diálogo pedindo ao usuário para inserir o nome.
 "Nome padrão" é o valor inicial que aparece no campo de entrada.
 Verificação:
@@ -92,5 +94,3 @@ alert:
 
 Mostra uma mensagem com o nome do usuário ou informa que a operação foi cancelada.
 
-
-````
