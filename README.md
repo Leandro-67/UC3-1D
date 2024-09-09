@@ -59,7 +59,25 @@ console.log(dividir)
 const pi = 23478
 
 const be = 645
-const circumference = 4 * pi * be;
+````
 
-console.log("a circunferencia é:" + circumference + " unidades ")
-```
+
+## PROMPT
+
+````js
+
+// Exibindo o prompt e armazenando a entrada do usuário
+let nome = prompt("Qual é o seu nome?", "Nome padrão");
+
+// Verificando se o usuário clicou em Cancelar
+if (nome !== null) {
+  // Mostrando uma mensagem de boas-vindas
+  alert("Olá, " + nome + "!");
+} else {
+  // Mensagem se o usuário clicar em Cancelar
+  alert("Você cancelou a operação.");
+}
+
+
+
+````
