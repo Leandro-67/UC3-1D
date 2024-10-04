@@ -9,7 +9,6 @@ Escreva aqui os conteúdos aprendidos.
 
 aprendi sobre as seguintes variaveis: const, let, var, if, else, Switch case
 
-Aqui está monstrando as somas, subtração, multiplicação e divisão dos numeros
 
  ### CONST
   O const em JavaScript é uma palavra-chave usada para declarar variáveis cujo valor não deve ser reatribuído após a inicialização. Isso significa que uma variável declarada com const não pode ser reatribuída, embora o conteúdo interno do valor possa ser modificado se for um objeto ou array.
