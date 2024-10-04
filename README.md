@@ -7,7 +7,7 @@ Certo
 ## Conteúdo Técnico
 Escreva aqui os conteúdos aprendidos.
 
-aprendir sobre as variaveis: const, let, var, if, else, Switch, case
+aprendi sobre as seguintes variaveis: const, let, var, if, else, Switch case
 
 ## Atividades desenvolvidas
 Escreva aqui as atividades desenvolvidas em sala e para casa. Você pode detelhar a atividade e usar links das atividades do codepen e vídeos desenvolvidos em sala. 
