@@ -9,9 +9,6 @@ Escreva aqui os conteúdos aprendidos.
 
 aprendi sobre as seguintes variaveis: const, let, var, if, else, Switch case
 
-## Atividades desenvolvidas
-Escreva aqui as atividades desenvolvidas em sala e para casa. Você pode detelhar a atividade e usar links das atividades do codepen e vídeos desenvolvidos em sala. 
-
 Aqui está monstrando as somas, subtração, multiplicação e divisão dos numeros
 
  ### CONST
@@ -166,6 +163,9 @@ Em JavaScript, Number é um tipo de dado primitivo usado para representar valore
 let inteiro = 42;
 let decimal = 3.14;
 ````
+
+## Atividades desenvolvidas
+Escreva aqui as atividades desenvolvidas em sala e para casa. Você pode detelhar a atividade e usar links das atividades do codepen e vídeos desenvolvidos em sala. 
 
  
  
